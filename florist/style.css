@@ -163,6 +163,7 @@ section {
   height: 100vh;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
@@ -170,15 +171,34 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
 }
-section a, section h1 {
+section .pageContent {
   text-decoration: none;
-  font-size: 2rem;
   color: #f1f1f1;
-  background-color: rgba(150, 150, 150, 0.3);
-  width: 30%;
+  background-color: rgba(150, 150, 150, 0.45);
+  width: 40%;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   border-radius: 3px;
+}
+section .pageContent h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+section .pageContent h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5em;
+}
+
+.more {
+  margin: 1em;
+}
+.more a {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: start;
 }
 
 #home {

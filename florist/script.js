@@ -33,7 +33,9 @@ function toggleNav() {
   }
 }
 
+
 toggleButton.addEventListener('click', toggleNav);
 navItems.forEach(nav => {
   nav.addEventListener('click', toggleNav);
 });
+
